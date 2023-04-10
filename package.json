@@ -1,0 +1,25 @@
+{
+  "name": "pug-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.pug",
+  "dependencies": {
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pug -w ./ -o ./html -P",
+    "open": "start http://localhost:5501/html/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulrajht/pug-tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulrajht/pug-tut/issues"
+  },
+  "homepage": ""
+}
